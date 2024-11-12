@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Блог</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{{ url_for('index') }}">Главная</a> |
+            <a href="{{ url_for('blog') }}">Блог</a> |
+            <a href="{{ url_for('contacts') }}">Контакты</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Наш блог</h1>
+        <p>Добро пожаловать в блог! Здесь публикуются наши последние статьи.</p>
+    </main>
+</body>
+</html>
